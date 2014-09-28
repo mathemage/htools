@@ -1,4 +1,4 @@
 htools
 ======
 
-Haskell Tools for various contest and problem solving
+Haskell Tools for solving various problems and contests
