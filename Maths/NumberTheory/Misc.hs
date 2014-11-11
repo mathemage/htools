@@ -1,7 +1,8 @@
 -- module with miscelleanous functions
 module Maths.NumberTheory.Misc
 ( reverseNumber,
-  isPalindrom
+  isPalindrom,
+  isPythagoreanTriplet
 ) where
 
 -- reverse digits of number
@@ -12,3 +13,6 @@ reverseNumber n
 
 isPalindrom :: Int -> Bool
 isPalindrom n = n == reverseNumber n
+
+isPythagoreanTriplet :: Int -> Int -> Int -> Bool
+isPythagoreanTriplet a b c = a*a + b*b == c*c
